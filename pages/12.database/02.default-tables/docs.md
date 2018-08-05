@@ -6,7 +6,7 @@ taxonomy:
     category: docs
 ---
 
-When you install UserFrosting with the [Bakery CLI](/cli), a number of tables will automatically added to your database.  These tables are required for UserFrosting's built-in features, such as user accounts, request throttling, persistent sessions, and access control.
+When you install UserFrosting with the [Bakery CLI](/cli), a number of tables will be automatically added to your database.  These tables are required for UserFrosting's built-in features, such as user accounts, request throttling, persistent sessions, and access control.
 
 The [migrations](/database/migrations) for most tables can be found in the `src/Database/Migrations` directory of the Sprinkle that depends on it.  The exceptions are the system tables, which are located in `app/system/Database/Migrations`.
 
